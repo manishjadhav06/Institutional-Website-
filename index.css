@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: RGB(45, 45, 45);
+}
+
+.formbody {
+    background-image: url("Software Training Institute _ IT Training Institute in Pune/smpl-scaled.jpg");
+    background-size: 100%;
+}
+
+.nav-parent {
+    margin: 0;
+    padding-top: 12px;
+    background-color: #edf0f2;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    line-height: 40px;
+}
+.logo{
+    width: 200px;
+    text-align: left;
+}
+.logo img {
+    float: left;
+    left: 200px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+/* -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;  */
+
+.ul1 li {
+    text-align: center;
+    text-decoration: none;
+}
+
+#fw {
+    font-weight: bold;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    padding: 25px 20px;
+    color: black;
+}
+
+.call-btn {
+    background-color: #1dabf2;
+    margin-left: 20px;
+    padding: 10px 20px !important;
+    border-radius: 7px;
+    color: white !important;
+}
+
+.call-btn:hover {
+    border: #1dabf2 1px solid;
+    background-color: white;
+    color: #1dabf2 !important;
+}
+
+.dropdown-cnt {
+    display: none;
+    position: absolute;
+    margin-right: -20px;
+    background-color: white;
+    width: 250px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+ul li a:hover {
+    color: #1dabf2;
+}
+
+.dropdown:hover .dropdown-cnt {
+    display: block;
+}
+
+.dropdown-cnt a {
+    display: block;
+    padding: 10px !important;
+    width: 300px;
+    line-height: 20px;
+    color: black;
+    text-align: left;
+}
+
+.flex-div {
+    margin: -4px 3.5%;
+}
+
+.after-nav-img {
+    display: inline-block;
+    width: 100%;
+}
+
+.after-nav-img img {
+    width: 100%;
+}
+
+.flex-btn {
+    position: absolute;
+    bottom: 60px;
+    left: 950px;
+}
+
+.flex-btn button {
+    padding: 12px 30px;
+    margin: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.5s;
+    background-color: #9cc938;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.flex-btn button:hover {
+    cursor: pointer;
+    background-color: #b3ed37;
+}
+
+.below-flex-text {
+    display: inline-block;
+    width: 100%;
+    background-color: RGB(45, 45, 45);
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+
+}
+
+.below-flex-text section h1 {
+    color: #7a7a7a;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.below-flex-text section p {
+    font-weight: 400px;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    padding: 0 145px;
+    line-height: 1.7em;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+
+.read-more-btn {
+    border: none;
+    color: white;
+    font-family: "Lato", Sans-serif;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 600;
+    height: 55px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #9cc938;
+    text-align: center;
+}
+
+.read-more-btn:hover {
+    cursor: pointer;
+    background-color: #192a56;
+
+}
+
+.cards-div {
+    background-color: white;
+    background-image: linear-gradient(#edf0f2, RGB(45, 45, 45));
+    height: fit-content;
+    display: block;
+    text-align: center;
+}
+
+.cards-div h1 {
+    color: #000000;
+    padding: 30px 0;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+
+.cards-div div {
+    padding-bottom: 100px;
+    display: block;
+}
+
+.cards-div div img {
+    background: transparent;
+    height: 400px;
+    transition: 0.3s;
+    padding: 0 10px;
+}
+
+.cards-div div img:hover {
+    transform: translateY(-4%);
+    cursor: pointer;
+}
+
+.maindiv {
+    display: flex;
+}
+
+.txt-cnt {
+    width: 40%;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.txt-cnt h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.txt-cnt p {
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.maindiv {
+    height: 730px;
+}
+
+.maindiv .form form {
+    display: grid;
+    position: relative;
+    background-color: white;
+    top: 50px;
+    left: 60%;
+    width: 300px;
+    height: 500px;
+    padding: 60px 40px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+}
+
+.form .sp1 {
+
+    padding: 15px 0;
+    display: grid;
+}
+
+.form span label {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #7a7a7a;
+    width: 300px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.form span input {
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.form span select {
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+    color: #7a7a7a;
+}
+
+.req {
+    color: red;
+}
+
+.form span button {
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    background-color: #9cc938;
+    transition: all .3s;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.form span button:hover {
+    background-color: #192a56;
+}
+
+.footer-div1 div {
+    display: flex;
+}
+
+.footer-div1 div a {
+    margin-top: 2px;
+    color: #fff !important;
+    text-align: center !important;
+    display: block;
+    line-height: 14px !important;
+    width: 12px !important;
+    height: 12px !important;
+    font-size: 16px !important;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+.div3 {
+    background-color: RGB(45, 45, 45);
+    display: flex;
+    padding: 0 10%;
+}
+
+.div3 div {
+    padding: 0 70px 80px 0;
+}
+
+.div3 div h1 {
+    color: #d9d9d9;
+    line-height: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.div3 div p {
+    line-height: 30px;
+    font-size: 20px;
+    color: #d9d9d9;
+}
+
+.div3 img {
+    width: 50%;
+}
+
+.div4 {
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(RGB(45, 45, 45), #b1b3b5);
+    background-color: #b1b3b5;
+    margin-top: -20px;
+    padding-top: 50px;
+    height: 600px;
+}
+
+.div4 h4 {
+    color: #FF5421;
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+}
+
+.div4 h1 {
+    color: #000000;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+
+.div4 div {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: top;
+}
+
+.div4 div img {
+    padding: 5px 18px;
+}
+
+.div4-btn {
+    position: relative;
+    top: 30px;
+}
+
+.div4-btn a {
+    background-color: #9cc938;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.div4-btn a:hover {
+    background-color: #192a56;
+}
+
+.footer-main {
+    /* background-image: linear-gradient(#b1b3b5 , RGB(45, 45, 45)); */
+    background-color: RGB(45, 45, 45);
+    width: 100%;
+    height: 570px;
+    display: block;
+}
+
+.sub-footer {
+    position: relative;
+    top: 10%;
+    width: 1170px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.sub-footer div {
+    color: #d9d9d9;
+    width: 25%;
+    padding: 0 14px;
+    line-height: 1.5rem;
+    font-family: inherit;
+    font-size: 16px;
+    letter-spacing: .02rem;
+}
+.footer-div1 img{
+    width: 200px;
+    height: 50px;
+}
+
+.footer-div2 ul li {
+    list-style-type: ">  ";
+    padding: 6px 0;
+    font-family: inherit;
+}
+
+.footer-div2 ul li a {
+    color: #d9d9d9;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.footer-div2 ul li a:hover {
+    color: #1dabf2;
+}
+
+.footer-div4 iframe {
+    width: 300px;
+    height: 200px;
+}
