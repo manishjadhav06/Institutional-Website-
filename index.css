@@ -121,6 +121,7 @@ ul li a:hover {
     position: relative;
     left: 60%;
     bottom: 120px;
+    width: 500px;
 }
 
 .flex-btn button {
